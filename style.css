@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+body, button, input{
+    font-family: 'Bitter', serif;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom:0px;
+}
+h3{
+    margin:13px;
+}
+table{
+    border: 1px;
+}
+td{
+    width: 30px;
+    height: 30px;
+    background: lightblue;
+}
+#divId{
+    text-align: center;
+}
+#aTable{
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    color:black;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+button:hover{
+    color:white;
+    background-color: black;
+    border: black 1px solid;
+}
+

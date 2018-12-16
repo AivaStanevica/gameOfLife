@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Game of life</title>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="divId">
+    <h1>Game of Life</h1>
+    <h3>Make your player</h3>
+    Size: <input type="number" name="tableSize" id="tableSize" value="15">
+    <button onClick="deleteTable();tableCreate(); putIntoArray()">Make table</button>
+    <button onClick="run()">Go</button>
+    <button onClick="stop()">Stop</button>
+    <button onClick="putIntoArray()">Manual move</button>
+</div>
+<table id="aTable"></table>
+</body>
+</html>
